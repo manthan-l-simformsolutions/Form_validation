@@ -37,7 +37,7 @@ const FormValidation = () => {
                         <TextFields label="Password" name="password" type="password" />
                         <TextFields label="Conform Password" name="conformPassword" type="password" />
                         <button className="btn btn-success mt-3" >Submit</button>
-                        <button className="btn btn-danger mt-3 ml-3" onClick={() => formik.resetForm(formik.initialValues)} >Reset</button>
+                        <button className="btn btn-danger mt-3 ml-3" onClick={formik.handleReset} >Reset</button>
                     </Form>
                 </div>
             )}
