@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import FormValidation from './components/FormValidation';
 import rocket from "./assets/rocket.png"
