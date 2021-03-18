@@ -19,5 +19,6 @@ h1{
   background-image: url(./assets/backimg.png);
   position: relative;
   height: 700px;
-  margin: 20px 
+  margin: 20px; 
+  font-family: 'Akaya Kanadaka', cursive;
 }
